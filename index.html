@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystal Game</title>
+	<link rel="stylesheet" type="text/css" href="https://bootswatch.com/spacelab/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../week-4-game/assets/css/style.css">
+	<script type="text/javascript" src="../week-4-game/assets/javascript/jquerylibrary.js"></script>
+	<script type="text/javascript" src="../week-4-game/assets/javascript/game.js"></script>
+</head>
+<body>
+	<div class="jumbotron centerAlign">
+		<div class="panel panel-primary">
+		<div class="panel-heading">
+			<h1 id="crystalHeader" class="panel-title">Crystals Collector!</h1>
+		</div>
+		<div id="instructions" class="panel-body">
+		<ul class="list-group">
+			<li class="list-group-item">You will be given a random number at the start of the game.</li>
+			<li class="list-group-item">There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</li>
+			<li class="list-group-item">You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number.</li>
+			<li class="list-group-item">The value of each crystal is hidden from you until you click on it.</li>
+			<li class="list-group-item">Each time when the game starts, the game will change the values of each crystal.</li>
+		</ul>
+		</div>
+		</div>
+	<div class="row">
+		<div class="col-md-3 well well-lg inlineBlock1">		
+				<p>Random Value: <span class="randomValue"> </span></p>
+		</div>	
+		<div class="col-md-3 well well-lg inlineBlock4">
+			<div>
+				<p>Your total score is: <span class="totalScore"></span></p>
+			</div>
+		</div>
+		<div class="col-md-3 well well-lg inlineBlock3">
+			<div id="crystalsNew">
+			</div>	
+		</div>
+		<div class="col-md-2 well well-lg inlineBlock2">
+			<div>
+				<p >Wins: <span class="wins"></span></p>
+	    		<p >Losses: <span class="losses"></span></p>
+			</div>
+		</div>
+	</div>
+	</div>
+	
+</body>
+</html>

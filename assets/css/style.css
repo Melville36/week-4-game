@@ -1,0 +1,56 @@
+#instructions {
+	background-color: gray;
+	color: blue;
+}
+
+#randomBack {
+	background-color: red;
+	color: white;
+	display: inline-block;
+}
+
+
+#recordBack {
+	background-color: green;
+	color: white;
+	display: inline-block;
+}
+
+#totalBack {
+	color: black;
+	display: inline-block;
+}
+
+.centerAlign {
+	margin: auto;
+	min-height: 100%;
+}
+
+.crystalImage {
+	width: 70px;
+	height: 70px;
+}
+
+.inlineBlock1 {
+	display: inline-block;
+	background-color: red;
+	color: white;
+}
+
+.inlineBlock2 {
+	display: inline-block;
+	background-color: blue;
+	color: white;
+}
+
+.inlineBlock3 {
+	display: inline-block;
+	background-color: black;
+	align-items: center;
+}
+
+.inlineBlock4 {
+	display: inline-block;
+	background-color: green;
+	color: white;
+}
